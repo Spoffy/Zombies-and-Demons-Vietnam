@@ -1,0 +1,21 @@
+name = "Zombies and Demons - S.O.G. Prairie Fire compatibility"
+prefix = "vgm_server"
+mainprefix = "v"
+
+[properties]
+author = "Spoffy"
+url = "https://www.sogpf.com"
+
+[version]
+major = 0
+minor = 0
+patch = 1
+
+[release]
+sign = true
+archive = true
+
+[files]
+include = [
+
+]

@@ -1,0 +1,15 @@
+[default]
+workshop = [
+    # Uncomment the below line to use the VN testing build
+    # (Make sure to disable the 'vn'` option in `dlc` attribute if you do)
+    # "1649778181"
+]
+dlc = [
+    "vn"
+]
+optionals = []
+parameters = []
+executable = "arma3_x64" # Default: "arma3_x64"
+file_patching = true
+binarize = false
+rapify = true
