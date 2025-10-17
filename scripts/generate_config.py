@@ -161,8 +161,9 @@ def make_zombie_parent_class(name: str, parent: str):
 	unitClass.add(arma_config.Raw("DECLARE_ZOMBIE_PARENT"))
 	return unitClass
 
-def make_zombie_unit_class(type: ZombieClassTypes, originalClassName: str, parent: str = None, originalUniformName: str = None, originalEditorSubcategory = None):
-	unitClass = arma_config.Class(get_zombie_class_name(type, originalClassName), parent=parent)
+def make_zombie_unit_class(type: ZombieClassTypes, originalClassName: str, parent: str = None, originalUniformName: str = None, originalEditorSubcategory = None, brain = True):
+	className = get_zombie_class_name(type, originalClassName) + ("" if brain else "_nobrain")
+	unitClass = arma_config.Class(className, parent=parent)
 	macro = zombie_macros.get(type, None)
 	if macro:
 		unitClass.add(arma_config.Raw(macro))
@@ -170,6 +171,8 @@ def make_zombie_unit_class(type: ZombieClassTypes, originalClassName: str, paren
 		unitClass.addProperty("uniformClass", arma_config.String(get_zombie_class_name(type, originalUniformName)))
 	if originalEditorSubcategory:
 		unitClass.addProperty("editorSubcategory", arma_config.String(get_zombie_class_name(type, originalEditorSubcategory)))
+	if brain:
+		unitClass.add(arma_config.Raw("RYAN_ZOMBIE_BRAIN"))
 	return unitClass
 
 def get_zombie_class_name(type: ZombieClassTypes, original_name: str) -> str:
@@ -187,8 +190,9 @@ for root in unit_trees_builder.roots():
 		elif unit_node.distance == 0:
 			CfgVehicles.add(make_zombie_parent_class(unit_node.name, unit_node.parent))
 
-			for zombie_type in [ZombieClassTypes.WALKER]:
-				CfgVehicles.add(make_zombie_unit_class(zombie_type, unit_node.name, unit_node.name, unit_node.data.uniform_class, unit_node.data.editor_subcategory))
+			for zombie_type in zombie_types:
+				CfgVehicles.add(make_zombie_unit_class(zombie_type, unit_node.name, unit_node.name, unit_node.data.uniform_class, unit_node.data.editor_subcategory, brain=True))
+				CfgVehicles.add(make_zombie_unit_class(zombie_type, unit_node.name, unit_node.name, unit_node.data.uniform_class, unit_node.data.editor_subcategory, brain=False))
 
 CfgWeapons = arma_config.Class("CfgWeapons")
 
@@ -200,7 +204,7 @@ for root in uniform_trees_builder.roots():
 		if uniform_node.distance == 0:
 			uniform_class.add(arma_config.Class("ItemInfo"))
 
-			for zombie_type in [ZombieClassTypes.WALKER]:
+			for zombie_type in zombie_types:
 				zombie_uniform_class = arma_config.Class(name=get_zombie_class_name(zombie_type, uniform_node.name), parent=uniform_node.name)
 				item_info = arma_config.Class(name="ItemInfo", parent="ItemInfo")
 				item_info.addProperty("uniformClass", arma_config.String(get_zombie_class_name(zombie_type, uniform_node.data.unit_class)))

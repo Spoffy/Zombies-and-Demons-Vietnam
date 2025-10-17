@@ -125,3 +125,15 @@
 
 #define ZOMBIFY_SPIDER ZOMBIE_BASE\
 	MOVES_SPIDER
+
+#define RYAN_ZOMBIE_BRAIN 		class EventHandlers\
+		{\
+			class CBA_Extended_EventHandlers\
+			{\
+				dummy = 1;\
+			};\
+			class Ryanzombies\
+			{\
+				init = "(_this select 0) setVariable ['cba_xeh_isprocessed', true]; if !(isnil 'ryanzombiesstartinganim') then {(_this select 0) switchmove 'AmovPercMstpSnonWnonDnon_SaluteOut';}; _this execVM '\ryanzombies\zombie.sqf'";\
+			};\
+		};
