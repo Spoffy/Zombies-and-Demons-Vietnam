@@ -80,22 +80,25 @@ uniform_trees_builder = TreesBuilder()
 class UnitData:
 	unit_class: str
 	uniform_class: str
+	editor_subcategory: str
 
 @dataclass
 class UniformData:
 	uniform_class: str
 	unit_class: str
 
+editor_subcategories = {}
+
 with open("DataDump.csv", "r") as data_file:
 	reader = csv.DictReader(data_file)
 	for row in reader:
 		unit_classes = [c for c in [row['unit_class'], row['parent_class'], row['parent_parent_class']] if c]
-		unit_trees_builder.add(name_hierarchy=unit_classes, data=UnitData(unit_class=row['unit_class'], uniform_class=row['uniform_class']))
+		unit_trees_builder.add(name_hierarchy=unit_classes, data=UnitData(unit_class=row['unit_class'], uniform_class=row['uniform_class'], editor_subcategory=row["editor_subcategory"]))
 		uniform_classes = [c for c in [row['uniform_class'], row['uniform_parent_class'], row['uniform_parent_parent_class']] if c]
-		uniform_trees_builder.add(name_hierarchy=uniform_classes, data=UnitData(unit_class=row['unit_class'], uniform_class=row['uniform_class']))
+		uniform_trees_builder.add(name_hierarchy=uniform_classes, data=UniformData(unit_class=row['unit_class'], uniform_class=row['uniform_class']))
 
+		editor_subcategories[row["editor_subcategory"]] = row["editor_subcategory_displayName"]
 
-CfgVehicles = arma_config.Class("CfgVehicles")
 
 class ZombieClassTypes(Enum):
 	PARENT_GEN_3 = "PARENT_GEN_3"
@@ -119,6 +122,16 @@ zombie_macros = {
 	ZombieClassTypes.FAST: "ZOMBIFY_FAST",
 	ZombieClassTypes.SPIDER: "ZOMBIFY_SPIDER",
 	ZombieClassTypes.CRAWLER: "ZOMBIFY_CRAWLER"
+}
+
+zombie_editorSubcategories = {
+	ZombieClassTypes.WALKER: "Zombies - Walker",
+	ZombieClassTypes.SLOW: "Zombies - Slow",
+	ZombieClassTypes.SLOW2: "Zombies - Slow 2",
+	ZombieClassTypes.MEDIUM: "Zombies - Medium",
+	ZombieClassTypes.FAST: "Zombies - Fast",
+	ZombieClassTypes.SPIDER: "Zombies - Spider",
+	ZombieClassTypes.CRAWLER: "Zombies - Crawler"
 }
 
 zombie_postfixes = {
@@ -148,18 +161,22 @@ def make_zombie_parent_class(name: str, parent: str):
 	unitClass.add(arma_config.Raw("DECLARE_ZOMBIE_PARENT"))
 	return unitClass
 
-def make_zombie_unit_class(type: ZombieClassTypes, originalClassName: str, parent: str = None, originalUniformName: str = None):
+def make_zombie_unit_class(type: ZombieClassTypes, originalClassName: str, parent: str = None, originalUniformName: str = None, originalEditorSubcategory = None):
 	unitClass = arma_config.Class(get_zombie_class_name(type, originalClassName), parent=parent)
 	macro = zombie_macros.get(type, None)
 	if macro:
 		unitClass.add(arma_config.Raw(macro))
 	if originalUniformName:
 		unitClass.addProperty("uniformClass", arma_config.String(get_zombie_class_name(type, originalUniformName)))
+	if originalEditorSubcategory:
+		unitClass.addProperty("editorSubcategory", arma_config.String(get_zombie_class_name(type, originalEditorSubcategory)))
 	return unitClass
 
 def get_zombie_class_name(type: ZombieClassTypes, original_name: str) -> str:
 	postfix = zombie_postfixes[type]
 	return f"{original_name}{postfix}"
+
+CfgVehicles = arma_config.Class("CfgVehicles")
 
 for root in unit_trees_builder.roots():
 	for unit_node in iterate_tree_depth_first(unit_trees_builder, root):
@@ -171,7 +188,7 @@ for root in unit_trees_builder.roots():
 			CfgVehicles.add(make_zombie_parent_class(unit_node.name, unit_node.parent))
 
 			for zombie_type in [ZombieClassTypes.WALKER]:
-				CfgVehicles.add(make_zombie_unit_class(zombie_type, unit_node.name, unit_node.name, unit_node.data.uniform_class))
+				CfgVehicles.add(make_zombie_unit_class(zombie_type, unit_node.name, unit_node.name, unit_node.data.uniform_class, unit_node.data.editor_subcategory))
 
 CfgWeapons = arma_config.Class("CfgWeapons")
 
@@ -189,6 +206,17 @@ for root in uniform_trees_builder.roots():
 				item_info.addProperty("uniformClass", arma_config.String(get_zombie_class_name(zombie_type, uniform_node.data.unit_class)))
 				zombie_uniform_class.add(item_info)
 				CfgWeapons.add(zombie_uniform_class)
+
+CfgEditorSubcategories = arma_config.Class("CfgEditorSubcategories")
+
+for category_class_name, category_display_name in editor_subcategories.items():
+	for zombie_type in zombie_types:
+		category_class = arma_config.Class(get_zombie_class_name(zombie_type, category_class_name))
+		category_class.addProperty("displayName", arma_config.String(f"{category_display_name} ({zombie_editorSubcategories[zombie_type]})"))
+		CfgEditorSubcategories.add(category_class)
+
+with open("../addons/zombies_f_vietnam_c/editor_subcategories.hpp", "w", encoding="utf8") as uniforms_file:
+	uniforms_file.write("\n".join(CfgEditorSubcategories.to_config_lines()))
 
 with open("../addons/zombies_f_vietnam_c/zombies.hpp", "w", encoding="utf8") as zombies_file:
 	zombies_file.write("\n".join(CfgVehicles.to_config_lines()))

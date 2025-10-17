@@ -20,6 +20,8 @@ class CfgPatches
 
 #include "common_includes.inc"
 
+#include "editor_subcategories.hpp"
+
 #include "uniforms.hpp"
 
 #include "zombies.hpp"
