@@ -1,5 +1,5 @@
 name = "Zombies and Demons - S.O.G. Prairie Fire compatibility"
-prefix = "vgm_server"
+prefix = "vnz"
 mainprefix = "v"
 
 [properties]
