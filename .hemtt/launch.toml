@@ -1,7 +1,14 @@
 [default]
 workshop = [
-    "3499977893",
-    "501966277"
+     "3499977893"
+    ,"501966277"
+    # Arma script profiler
+    #,"1652506957"
+    #,"1645973522"
+    #,"450814997"
+    # POLPOX's animation viewer
+    #,"1341387001"
+    #,"1862880106"
 ]
 dlc = [
     "vn"
@@ -10,6 +17,6 @@ mission = 'zombie_test.VR'
 optionals = []
 parameters = []
 executable = "arma3_x64" # Default: "arma3_x64"
-file_patching = true
+file_patching = false
 binarize = false
 rapify = true
