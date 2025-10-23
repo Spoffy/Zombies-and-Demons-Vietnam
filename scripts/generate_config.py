@@ -4,6 +4,7 @@ from typing import Union
 import csv
 
 import arma_config
+import blacklists
 
 # Alternate idea: Assemble an ordered list of nodes, with level of detail, ordered by depedency level.
 # Propagate a list of priorities up the dependency chain whenever a node is added
@@ -92,6 +93,11 @@ factions = {}
 with open("DataDump.csv", "r") as data_file:
 	reader = csv.DictReader(data_file)
 	for row in reader:
+		if blacklists.is_blacklisted(blacklists.unit_names, row['unit_displayName']):
+			continue
+		if blacklists.is_blacklisted(blacklists.editor_subcategory_names, row['editor_subcategory_displayName']):
+			continue
+
 		unit_classes = [c for c in [row['unit_class'], row['parent_class'], row['parent_parent_class']] if c]
 		unit_trees_builder.add(name_hierarchy=unit_classes, data=UnitData(unit_class=row['unit_class'], uniform_class=row['uniform_class'], editor_subcategory=row["editor_subcategory"], faction=row["faction"]))
 		uniform_classes = [c for c in [row['uniform_class'], row['uniform_parent_class'], row['uniform_parent_parent_class']] if c]

@@ -9,6 +9,7 @@ This adds zombie variants (Walker, Slow, Medium, Fast, Spider, Crawler, Player-c
 
 These zombies should behave identically to Ryan's zombies (except where "No brain" zombies are used, see below).
 
+> **Important note**: A small number of units are intentionally omitted out of respect for the real-life veterans involved in with S.O.G. Prairie Fire. Please do not re-add them.
 
 **This mod is functional, but unfinished and still in development**
 

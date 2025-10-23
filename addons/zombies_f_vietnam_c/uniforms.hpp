@@ -2,737 +2,6 @@ class CfgWeapons {
     class Uniform_Base;
     class vn_b_uniform_base : Uniform_Base {
     };
-    class vn_b_uniform_sog_01_04 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_sog_01_04_zombie_walker : vn_b_uniform_sog_01_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_01_zombie_walker";
-        };
-    };
-    class vn_b_uniform_sog_01_04_zombie_slow : vn_b_uniform_sog_01_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_01_zombie_slow";
-        };
-    };
-    class vn_b_uniform_sog_01_04_zombie_slow2 : vn_b_uniform_sog_01_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_01_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_sog_01_04_zombie_medium : vn_b_uniform_sog_01_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_01_zombie_medium";
-        };
-    };
-    class vn_b_uniform_sog_01_04_zombie_fast : vn_b_uniform_sog_01_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_01_zombie_fast";
-        };
-    };
-    class vn_b_uniform_sog_01_04_zombie_crawler : vn_b_uniform_sog_01_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_01_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_sog_01_04_zombie_spider : vn_b_uniform_sog_01_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_01_zombie_spider";
-        };
-    };
-    class vn_b_uniform_sog_01_04_zombie_player : vn_b_uniform_sog_01_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_01_zombie_player";
-        };
-    };
-    class vn_b_uniform_sog_02_05 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_sog_02_05_zombie_walker : vn_b_uniform_sog_02_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_02_zombie_walker";
-        };
-    };
-    class vn_b_uniform_sog_02_05_zombie_slow : vn_b_uniform_sog_02_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_02_zombie_slow";
-        };
-    };
-    class vn_b_uniform_sog_02_05_zombie_slow2 : vn_b_uniform_sog_02_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_02_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_sog_02_05_zombie_medium : vn_b_uniform_sog_02_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_02_zombie_medium";
-        };
-    };
-    class vn_b_uniform_sog_02_05_zombie_fast : vn_b_uniform_sog_02_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_02_zombie_fast";
-        };
-    };
-    class vn_b_uniform_sog_02_05_zombie_crawler : vn_b_uniform_sog_02_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_02_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_sog_02_05_zombie_spider : vn_b_uniform_sog_02_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_02_zombie_spider";
-        };
-    };
-    class vn_b_uniform_sog_02_05_zombie_player : vn_b_uniform_sog_02_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_02_zombie_player";
-        };
-    };
-    class vn_b_uniform_sog_01_06 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_sog_01_06_zombie_walker : vn_b_uniform_sog_01_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_03_zombie_walker";
-        };
-    };
-    class vn_b_uniform_sog_01_06_zombie_slow : vn_b_uniform_sog_01_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_03_zombie_slow";
-        };
-    };
-    class vn_b_uniform_sog_01_06_zombie_slow2 : vn_b_uniform_sog_01_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_03_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_sog_01_06_zombie_medium : vn_b_uniform_sog_01_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_03_zombie_medium";
-        };
-    };
-    class vn_b_uniform_sog_01_06_zombie_fast : vn_b_uniform_sog_01_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_03_zombie_fast";
-        };
-    };
-    class vn_b_uniform_sog_01_06_zombie_crawler : vn_b_uniform_sog_01_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_03_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_sog_01_06_zombie_spider : vn_b_uniform_sog_01_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_03_zombie_spider";
-        };
-    };
-    class vn_b_uniform_sog_01_06_zombie_player : vn_b_uniform_sog_01_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_03_zombie_player";
-        };
-    };
-    class vn_b_uniform_sog_02_04 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_sog_02_04_zombie_walker : vn_b_uniform_sog_02_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_13_zombie_walker";
-        };
-    };
-    class vn_b_uniform_sog_02_04_zombie_slow : vn_b_uniform_sog_02_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_13_zombie_slow";
-        };
-    };
-    class vn_b_uniform_sog_02_04_zombie_slow2 : vn_b_uniform_sog_02_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_13_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_sog_02_04_zombie_medium : vn_b_uniform_sog_02_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_13_zombie_medium";
-        };
-    };
-    class vn_b_uniform_sog_02_04_zombie_fast : vn_b_uniform_sog_02_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_13_zombie_fast";
-        };
-    };
-    class vn_b_uniform_sog_02_04_zombie_crawler : vn_b_uniform_sog_02_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_13_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_sog_02_04_zombie_spider : vn_b_uniform_sog_02_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_13_zombie_spider";
-        };
-    };
-    class vn_b_uniform_sog_02_04_zombie_player : vn_b_uniform_sog_02_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_13_zombie_player";
-        };
-    };
-    class vn_b_uniform_sog_01_05 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_sog_01_05_zombie_walker : vn_b_uniform_sog_01_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_14_zombie_walker";
-        };
-    };
-    class vn_b_uniform_sog_01_05_zombie_slow : vn_b_uniform_sog_01_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_14_zombie_slow";
-        };
-    };
-    class vn_b_uniform_sog_01_05_zombie_slow2 : vn_b_uniform_sog_01_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_14_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_sog_01_05_zombie_medium : vn_b_uniform_sog_01_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_14_zombie_medium";
-        };
-    };
-    class vn_b_uniform_sog_01_05_zombie_fast : vn_b_uniform_sog_01_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_14_zombie_fast";
-        };
-    };
-    class vn_b_uniform_sog_01_05_zombie_crawler : vn_b_uniform_sog_01_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_14_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_sog_01_05_zombie_spider : vn_b_uniform_sog_01_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_14_zombie_spider";
-        };
-    };
-    class vn_b_uniform_sog_01_05_zombie_player : vn_b_uniform_sog_01_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_14_zombie_player";
-        };
-    };
-    class vn_b_uniform_sog_02_06 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_sog_02_06_zombie_walker : vn_b_uniform_sog_02_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_15_zombie_walker";
-        };
-    };
-    class vn_b_uniform_sog_02_06_zombie_slow : vn_b_uniform_sog_02_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_15_zombie_slow";
-        };
-    };
-    class vn_b_uniform_sog_02_06_zombie_slow2 : vn_b_uniform_sog_02_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_15_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_sog_02_06_zombie_medium : vn_b_uniform_sog_02_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_15_zombie_medium";
-        };
-    };
-    class vn_b_uniform_sog_02_06_zombie_fast : vn_b_uniform_sog_02_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_15_zombie_fast";
-        };
-    };
-    class vn_b_uniform_sog_02_06_zombie_crawler : vn_b_uniform_sog_02_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_15_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_sog_02_06_zombie_spider : vn_b_uniform_sog_02_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_15_zombie_spider";
-        };
-    };
-    class vn_b_uniform_sog_02_06_zombie_player : vn_b_uniform_sog_02_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_15_zombie_player";
-        };
-    };
-    class vn_b_uniform_sog_01_01 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_sog_01_01_zombie_walker : vn_b_uniform_sog_01_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_04_zombie_walker";
-        };
-    };
-    class vn_b_uniform_sog_01_01_zombie_slow : vn_b_uniform_sog_01_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_04_zombie_slow";
-        };
-    };
-    class vn_b_uniform_sog_01_01_zombie_slow2 : vn_b_uniform_sog_01_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_04_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_sog_01_01_zombie_medium : vn_b_uniform_sog_01_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_04_zombie_medium";
-        };
-    };
-    class vn_b_uniform_sog_01_01_zombie_fast : vn_b_uniform_sog_01_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_04_zombie_fast";
-        };
-    };
-    class vn_b_uniform_sog_01_01_zombie_crawler : vn_b_uniform_sog_01_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_04_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_sog_01_01_zombie_spider : vn_b_uniform_sog_01_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_04_zombie_spider";
-        };
-    };
-    class vn_b_uniform_sog_01_01_zombie_player : vn_b_uniform_sog_01_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_04_zombie_player";
-        };
-    };
-    class vn_b_uniform_sog_01_02 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_sog_01_02_zombie_walker : vn_b_uniform_sog_01_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_05_zombie_walker";
-        };
-    };
-    class vn_b_uniform_sog_01_02_zombie_slow : vn_b_uniform_sog_01_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_05_zombie_slow";
-        };
-    };
-    class vn_b_uniform_sog_01_02_zombie_slow2 : vn_b_uniform_sog_01_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_05_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_sog_01_02_zombie_medium : vn_b_uniform_sog_01_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_05_zombie_medium";
-        };
-    };
-    class vn_b_uniform_sog_01_02_zombie_fast : vn_b_uniform_sog_01_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_05_zombie_fast";
-        };
-    };
-    class vn_b_uniform_sog_01_02_zombie_crawler : vn_b_uniform_sog_01_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_05_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_sog_01_02_zombie_spider : vn_b_uniform_sog_01_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_05_zombie_spider";
-        };
-    };
-    class vn_b_uniform_sog_01_02_zombie_player : vn_b_uniform_sog_01_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_05_zombie_player";
-        };
-    };
-    class vn_b_uniform_sog_01_03 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_sog_01_03_zombie_walker : vn_b_uniform_sog_01_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_06_zombie_walker";
-        };
-    };
-    class vn_b_uniform_sog_01_03_zombie_slow : vn_b_uniform_sog_01_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_06_zombie_slow";
-        };
-    };
-    class vn_b_uniform_sog_01_03_zombie_slow2 : vn_b_uniform_sog_01_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_06_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_sog_01_03_zombie_medium : vn_b_uniform_sog_01_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_06_zombie_medium";
-        };
-    };
-    class vn_b_uniform_sog_01_03_zombie_fast : vn_b_uniform_sog_01_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_06_zombie_fast";
-        };
-    };
-    class vn_b_uniform_sog_01_03_zombie_crawler : vn_b_uniform_sog_01_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_06_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_sog_01_03_zombie_spider : vn_b_uniform_sog_01_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_06_zombie_spider";
-        };
-    };
-    class vn_b_uniform_sog_01_03_zombie_player : vn_b_uniform_sog_01_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_06_zombie_player";
-        };
-    };
-    class vn_b_uniform_sog_02_01 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_sog_02_01_zombie_walker : vn_b_uniform_sog_02_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_07_zombie_walker";
-        };
-    };
-    class vn_b_uniform_sog_02_01_zombie_slow : vn_b_uniform_sog_02_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_07_zombie_slow";
-        };
-    };
-    class vn_b_uniform_sog_02_01_zombie_slow2 : vn_b_uniform_sog_02_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_07_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_sog_02_01_zombie_medium : vn_b_uniform_sog_02_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_07_zombie_medium";
-        };
-    };
-    class vn_b_uniform_sog_02_01_zombie_fast : vn_b_uniform_sog_02_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_07_zombie_fast";
-        };
-    };
-    class vn_b_uniform_sog_02_01_zombie_crawler : vn_b_uniform_sog_02_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_07_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_sog_02_01_zombie_spider : vn_b_uniform_sog_02_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_07_zombie_spider";
-        };
-    };
-    class vn_b_uniform_sog_02_01_zombie_player : vn_b_uniform_sog_02_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_07_zombie_player";
-        };
-    };
-    class vn_b_uniform_sog_02_02 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_sog_02_02_zombie_walker : vn_b_uniform_sog_02_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_08_zombie_walker";
-        };
-    };
-    class vn_b_uniform_sog_02_02_zombie_slow : vn_b_uniform_sog_02_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_08_zombie_slow";
-        };
-    };
-    class vn_b_uniform_sog_02_02_zombie_slow2 : vn_b_uniform_sog_02_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_08_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_sog_02_02_zombie_medium : vn_b_uniform_sog_02_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_08_zombie_medium";
-        };
-    };
-    class vn_b_uniform_sog_02_02_zombie_fast : vn_b_uniform_sog_02_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_08_zombie_fast";
-        };
-    };
-    class vn_b_uniform_sog_02_02_zombie_crawler : vn_b_uniform_sog_02_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_08_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_sog_02_02_zombie_spider : vn_b_uniform_sog_02_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_08_zombie_spider";
-        };
-    };
-    class vn_b_uniform_sog_02_02_zombie_player : vn_b_uniform_sog_02_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_08_zombie_player";
-        };
-    };
-    class vn_b_uniform_sog_02_03 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_sog_02_03_zombie_walker : vn_b_uniform_sog_02_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_09_zombie_walker";
-        };
-    };
-    class vn_b_uniform_sog_02_03_zombie_slow : vn_b_uniform_sog_02_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_09_zombie_slow";
-        };
-    };
-    class vn_b_uniform_sog_02_03_zombie_slow2 : vn_b_uniform_sog_02_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_09_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_sog_02_03_zombie_medium : vn_b_uniform_sog_02_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_09_zombie_medium";
-        };
-    };
-    class vn_b_uniform_sog_02_03_zombie_fast : vn_b_uniform_sog_02_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_09_zombie_fast";
-        };
-    };
-    class vn_b_uniform_sog_02_03_zombie_crawler : vn_b_uniform_sog_02_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_09_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_sog_02_03_zombie_spider : vn_b_uniform_sog_02_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_09_zombie_spider";
-        };
-    };
-    class vn_b_uniform_sog_02_03_zombie_player : vn_b_uniform_sog_02_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_09_zombie_player";
-        };
-    };
-    class vn_b_uniform_macv_01_03 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_macv_01_03_zombie_walker : vn_b_uniform_macv_01_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_10_zombie_walker";
-        };
-    };
-    class vn_b_uniform_macv_01_03_zombie_slow : vn_b_uniform_macv_01_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_10_zombie_slow";
-        };
-    };
-    class vn_b_uniform_macv_01_03_zombie_slow2 : vn_b_uniform_macv_01_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_10_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_macv_01_03_zombie_medium : vn_b_uniform_macv_01_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_10_zombie_medium";
-        };
-    };
-    class vn_b_uniform_macv_01_03_zombie_fast : vn_b_uniform_macv_01_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_10_zombie_fast";
-        };
-    };
-    class vn_b_uniform_macv_01_03_zombie_crawler : vn_b_uniform_macv_01_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_10_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_macv_01_03_zombie_spider : vn_b_uniform_macv_01_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_10_zombie_spider";
-        };
-    };
-    class vn_b_uniform_macv_01_03_zombie_player : vn_b_uniform_macv_01_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_10_zombie_player";
-        };
-    };
-    class vn_b_uniform_macv_01_04 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_macv_01_04_zombie_walker : vn_b_uniform_macv_01_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_11_zombie_walker";
-        };
-    };
-    class vn_b_uniform_macv_01_04_zombie_slow : vn_b_uniform_macv_01_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_11_zombie_slow";
-        };
-    };
-    class vn_b_uniform_macv_01_04_zombie_slow2 : vn_b_uniform_macv_01_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_11_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_macv_01_04_zombie_medium : vn_b_uniform_macv_01_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_11_zombie_medium";
-        };
-    };
-    class vn_b_uniform_macv_01_04_zombie_fast : vn_b_uniform_macv_01_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_11_zombie_fast";
-        };
-    };
-    class vn_b_uniform_macv_01_04_zombie_crawler : vn_b_uniform_macv_01_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_11_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_macv_01_04_zombie_spider : vn_b_uniform_macv_01_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_11_zombie_spider";
-        };
-    };
-    class vn_b_uniform_macv_01_04_zombie_player : vn_b_uniform_macv_01_04 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_11_zombie_player";
-        };
-    };
-    class vn_b_uniform_macv_06_06 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_macv_06_06_zombie_walker : vn_b_uniform_macv_06_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_22_zombie_walker";
-        };
-    };
-    class vn_b_uniform_macv_06_06_zombie_slow : vn_b_uniform_macv_06_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_22_zombie_slow";
-        };
-    };
-    class vn_b_uniform_macv_06_06_zombie_slow2 : vn_b_uniform_macv_06_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_22_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_macv_06_06_zombie_medium : vn_b_uniform_macv_06_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_22_zombie_medium";
-        };
-    };
-    class vn_b_uniform_macv_06_06_zombie_fast : vn_b_uniform_macv_06_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_22_zombie_fast";
-        };
-    };
-    class vn_b_uniform_macv_06_06_zombie_crawler : vn_b_uniform_macv_06_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_22_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_macv_06_06_zombie_spider : vn_b_uniform_macv_06_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_22_zombie_spider";
-        };
-    };
-    class vn_b_uniform_macv_06_06_zombie_player : vn_b_uniform_macv_06_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_22_zombie_player";
-        };
-    };
-    class vn_b_uniform_macv_04_21 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_macv_04_21_zombie_walker : vn_b_uniform_macv_04_21 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_23_zombie_walker";
-        };
-    };
-    class vn_b_uniform_macv_04_21_zombie_slow : vn_b_uniform_macv_04_21 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_23_zombie_slow";
-        };
-    };
-    class vn_b_uniform_macv_04_21_zombie_slow2 : vn_b_uniform_macv_04_21 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_23_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_macv_04_21_zombie_medium : vn_b_uniform_macv_04_21 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_23_zombie_medium";
-        };
-    };
-    class vn_b_uniform_macv_04_21_zombie_fast : vn_b_uniform_macv_04_21 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_23_zombie_fast";
-        };
-    };
-    class vn_b_uniform_macv_04_21_zombie_crawler : vn_b_uniform_macv_04_21 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_23_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_macv_04_21_zombie_spider : vn_b_uniform_macv_04_21 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_23_zombie_spider";
-        };
-    };
-    class vn_b_uniform_macv_04_21_zombie_player : vn_b_uniform_macv_04_21 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_23_zombie_player";
-        };
-    };
-    class vn_b_uniform_macv_04_20 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_macv_04_20_zombie_walker : vn_b_uniform_macv_04_20 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_24_zombie_walker";
-        };
-    };
-    class vn_b_uniform_macv_04_20_zombie_slow : vn_b_uniform_macv_04_20 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_24_zombie_slow";
-        };
-    };
-    class vn_b_uniform_macv_04_20_zombie_slow2 : vn_b_uniform_macv_04_20 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_24_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_macv_04_20_zombie_medium : vn_b_uniform_macv_04_20 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_24_zombie_medium";
-        };
-    };
-    class vn_b_uniform_macv_04_20_zombie_fast : vn_b_uniform_macv_04_20 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_24_zombie_fast";
-        };
-    };
-    class vn_b_uniform_macv_04_20_zombie_crawler : vn_b_uniform_macv_04_20 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_24_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_macv_04_20_zombie_spider : vn_b_uniform_macv_04_20 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_24_zombie_spider";
-        };
-    };
-    class vn_b_uniform_macv_04_20_zombie_player : vn_b_uniform_macv_04_20 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_sog_24_zombie_player";
-        };
-    };
     class vn_b_uniform_macv_01_02 : vn_b_uniform_base {
         class ItemInfo;
     };
@@ -1722,6 +991,49 @@ class CfgWeapons {
             uniformClass = "vn_b_men_lrrp_05_zombie_player";
         };
     };
+    class vn_b_uniform_macv_06_06 : vn_b_uniform_base {
+        class ItemInfo;
+    };
+    class vn_b_uniform_macv_06_06_zombie_walker : vn_b_uniform_macv_06_06 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_b_men_lrrp_09_zombie_walker";
+        };
+    };
+    class vn_b_uniform_macv_06_06_zombie_slow : vn_b_uniform_macv_06_06 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_b_men_lrrp_09_zombie_slow";
+        };
+    };
+    class vn_b_uniform_macv_06_06_zombie_slow2 : vn_b_uniform_macv_06_06 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_b_men_lrrp_09_zombie_slow2";
+        };
+    };
+    class vn_b_uniform_macv_06_06_zombie_medium : vn_b_uniform_macv_06_06 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_b_men_lrrp_09_zombie_medium";
+        };
+    };
+    class vn_b_uniform_macv_06_06_zombie_fast : vn_b_uniform_macv_06_06 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_b_men_lrrp_09_zombie_fast";
+        };
+    };
+    class vn_b_uniform_macv_06_06_zombie_crawler : vn_b_uniform_macv_06_06 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_b_men_lrrp_09_zombie_crawler";
+        };
+    };
+    class vn_b_uniform_macv_06_06_zombie_spider : vn_b_uniform_macv_06_06 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_b_men_lrrp_09_zombie_spider";
+        };
+    };
+    class vn_b_uniform_macv_06_06_zombie_player : vn_b_uniform_macv_06_06 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_b_men_lrrp_09_zombie_player";
+        };
+    };
     class vn_b_uniform_macv_01_01 : vn_b_uniform_base {
         class ItemInfo;
     };
@@ -2324,133 +1636,47 @@ class CfgWeapons {
             uniformClass = "vn_b_men_aircrew_09_zombie_player";
         };
     };
-    class vn_b_uniform_k2b_02_03 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_k2b_02_03_zombie_walker : vn_b_uniform_k2b_02_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_aircrew_13_zombie_walker";
-        };
-    };
-    class vn_b_uniform_k2b_02_03_zombie_slow : vn_b_uniform_k2b_02_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_aircrew_13_zombie_slow";
-        };
-    };
-    class vn_b_uniform_k2b_02_03_zombie_slow2 : vn_b_uniform_k2b_02_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_aircrew_13_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_k2b_02_03_zombie_medium : vn_b_uniform_k2b_02_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_aircrew_13_zombie_medium";
-        };
-    };
-    class vn_b_uniform_k2b_02_03_zombie_fast : vn_b_uniform_k2b_02_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_aircrew_13_zombie_fast";
-        };
-    };
-    class vn_b_uniform_k2b_02_03_zombie_crawler : vn_b_uniform_k2b_02_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_aircrew_13_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_k2b_02_03_zombie_spider : vn_b_uniform_k2b_02_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_aircrew_13_zombie_spider";
-        };
-    };
-    class vn_b_uniform_k2b_02_03_zombie_player : vn_b_uniform_k2b_02_03 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_aircrew_13_zombie_player";
-        };
-    };
-    class vn_b_uniform_k2b_01_01 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_k2b_01_01_zombie_walker : vn_b_uniform_k2b_01_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_jetpilot_01_zombie_walker";
-        };
-    };
-    class vn_b_uniform_k2b_01_01_zombie_slow : vn_b_uniform_k2b_01_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_jetpilot_01_zombie_slow";
-        };
-    };
-    class vn_b_uniform_k2b_01_01_zombie_slow2 : vn_b_uniform_k2b_01_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_jetpilot_01_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_k2b_01_01_zombie_medium : vn_b_uniform_k2b_01_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_jetpilot_01_zombie_medium";
-        };
-    };
-    class vn_b_uniform_k2b_01_01_zombie_fast : vn_b_uniform_k2b_01_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_jetpilot_01_zombie_fast";
-        };
-    };
-    class vn_b_uniform_k2b_01_01_zombie_crawler : vn_b_uniform_k2b_01_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_jetpilot_01_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_k2b_01_01_zombie_spider : vn_b_uniform_k2b_01_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_jetpilot_01_zombie_spider";
-        };
-    };
-    class vn_b_uniform_k2b_01_01_zombie_player : vn_b_uniform_k2b_01_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_jetpilot_01_zombie_player";
-        };
-    };
     class vn_b_uniform_k2b_01_02 : vn_b_uniform_base {
         class ItemInfo;
     };
     class vn_b_uniform_k2b_01_02_zombie_walker : vn_b_uniform_k2b_01_02 {
         class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_jetpilot_03_zombie_walker";
+            uniformClass = "vn_b_men_jetpilot_05_zombie_walker";
         };
     };
     class vn_b_uniform_k2b_01_02_zombie_slow : vn_b_uniform_k2b_01_02 {
         class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_jetpilot_03_zombie_slow";
+            uniformClass = "vn_b_men_jetpilot_05_zombie_slow";
         };
     };
     class vn_b_uniform_k2b_01_02_zombie_slow2 : vn_b_uniform_k2b_01_02 {
         class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_jetpilot_03_zombie_slow2";
+            uniformClass = "vn_b_men_jetpilot_05_zombie_slow2";
         };
     };
     class vn_b_uniform_k2b_01_02_zombie_medium : vn_b_uniform_k2b_01_02 {
         class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_jetpilot_03_zombie_medium";
+            uniformClass = "vn_b_men_jetpilot_05_zombie_medium";
         };
     };
     class vn_b_uniform_k2b_01_02_zombie_fast : vn_b_uniform_k2b_01_02 {
         class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_jetpilot_03_zombie_fast";
+            uniformClass = "vn_b_men_jetpilot_05_zombie_fast";
         };
     };
     class vn_b_uniform_k2b_01_02_zombie_crawler : vn_b_uniform_k2b_01_02 {
         class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_jetpilot_03_zombie_crawler";
+            uniformClass = "vn_b_men_jetpilot_05_zombie_crawler";
         };
     };
     class vn_b_uniform_k2b_01_02_zombie_spider : vn_b_uniform_k2b_01_02 {
         class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_jetpilot_03_zombie_spider";
+            uniformClass = "vn_b_men_jetpilot_05_zombie_spider";
         };
     };
     class vn_b_uniform_k2b_01_02_zombie_player : vn_b_uniform_k2b_01_02 {
         class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_jetpilot_03_zombie_player";
+            uniformClass = "vn_b_men_jetpilot_05_zombie_player";
         };
     };
     class vn_b_uniform_macv_02_07 : vn_b_uniform_base {
@@ -3010,6 +2236,49 @@ class CfgWeapons {
     class vn_b_uniform_macv_02_05_zombie_player : vn_b_uniform_macv_02_05 {
         class ItemInfo : ItemInfo {
             uniformClass = "vn_i_men_sf_07_zombie_player";
+        };
+    };
+    class vn_b_uniform_k2b_01_01 : vn_b_uniform_base {
+        class ItemInfo;
+    };
+    class vn_b_uniform_k2b_01_01_zombie_walker : vn_b_uniform_k2b_01_01 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_i_men_jetpilot_01_zombie_walker";
+        };
+    };
+    class vn_b_uniform_k2b_01_01_zombie_slow : vn_b_uniform_k2b_01_01 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_i_men_jetpilot_01_zombie_slow";
+        };
+    };
+    class vn_b_uniform_k2b_01_01_zombie_slow2 : vn_b_uniform_k2b_01_01 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_i_men_jetpilot_01_zombie_slow2";
+        };
+    };
+    class vn_b_uniform_k2b_01_01_zombie_medium : vn_b_uniform_k2b_01_01 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_i_men_jetpilot_01_zombie_medium";
+        };
+    };
+    class vn_b_uniform_k2b_01_01_zombie_fast : vn_b_uniform_k2b_01_01 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_i_men_jetpilot_01_zombie_fast";
+        };
+    };
+    class vn_b_uniform_k2b_01_01_zombie_crawler : vn_b_uniform_k2b_01_01 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_i_men_jetpilot_01_zombie_crawler";
+        };
+    };
+    class vn_b_uniform_k2b_01_01_zombie_spider : vn_b_uniform_k2b_01_01 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_i_men_jetpilot_01_zombie_spider";
+        };
+    };
+    class vn_b_uniform_k2b_01_01_zombie_player : vn_b_uniform_k2b_01_01 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_i_men_jetpilot_01_zombie_player";
         };
     };
     class vn_b_uniform_seal_01_01 : vn_b_uniform_base {
@@ -3741,221 +3010,6 @@ class CfgWeapons {
     class vn_b_uniform_seal_05_07_zombie_player : vn_b_uniform_seal_05_07 {
         class ItemInfo : ItemInfo {
             uniformClass = "vn_b_men_seal_17_zombie_player";
-        };
-    };
-    class vn_b_uniform_seal_06_01 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_seal_06_01_zombie_walker : vn_b_uniform_seal_06_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_18_zombie_walker";
-        };
-    };
-    class vn_b_uniform_seal_06_01_zombie_slow : vn_b_uniform_seal_06_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_18_zombie_slow";
-        };
-    };
-    class vn_b_uniform_seal_06_01_zombie_slow2 : vn_b_uniform_seal_06_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_18_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_seal_06_01_zombie_medium : vn_b_uniform_seal_06_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_18_zombie_medium";
-        };
-    };
-    class vn_b_uniform_seal_06_01_zombie_fast : vn_b_uniform_seal_06_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_18_zombie_fast";
-        };
-    };
-    class vn_b_uniform_seal_06_01_zombie_crawler : vn_b_uniform_seal_06_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_18_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_seal_06_01_zombie_spider : vn_b_uniform_seal_06_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_18_zombie_spider";
-        };
-    };
-    class vn_b_uniform_seal_06_01_zombie_player : vn_b_uniform_seal_06_01 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_18_zombie_player";
-        };
-    };
-    class vn_b_uniform_seal_06_02 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_seal_06_02_zombie_walker : vn_b_uniform_seal_06_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_19_zombie_walker";
-        };
-    };
-    class vn_b_uniform_seal_06_02_zombie_slow : vn_b_uniform_seal_06_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_19_zombie_slow";
-        };
-    };
-    class vn_b_uniform_seal_06_02_zombie_slow2 : vn_b_uniform_seal_06_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_19_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_seal_06_02_zombie_medium : vn_b_uniform_seal_06_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_19_zombie_medium";
-        };
-    };
-    class vn_b_uniform_seal_06_02_zombie_fast : vn_b_uniform_seal_06_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_19_zombie_fast";
-        };
-    };
-    class vn_b_uniform_seal_06_02_zombie_crawler : vn_b_uniform_seal_06_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_19_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_seal_06_02_zombie_spider : vn_b_uniform_seal_06_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_19_zombie_spider";
-        };
-    };
-    class vn_b_uniform_seal_06_02_zombie_player : vn_b_uniform_seal_06_02 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_19_zombie_player";
-        };
-    };
-    class vn_b_uniform_seal_06_05 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_seal_06_05_zombie_walker : vn_b_uniform_seal_06_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_20_zombie_walker";
-        };
-    };
-    class vn_b_uniform_seal_06_05_zombie_slow : vn_b_uniform_seal_06_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_20_zombie_slow";
-        };
-    };
-    class vn_b_uniform_seal_06_05_zombie_slow2 : vn_b_uniform_seal_06_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_20_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_seal_06_05_zombie_medium : vn_b_uniform_seal_06_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_20_zombie_medium";
-        };
-    };
-    class vn_b_uniform_seal_06_05_zombie_fast : vn_b_uniform_seal_06_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_20_zombie_fast";
-        };
-    };
-    class vn_b_uniform_seal_06_05_zombie_crawler : vn_b_uniform_seal_06_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_20_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_seal_06_05_zombie_spider : vn_b_uniform_seal_06_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_20_zombie_spider";
-        };
-    };
-    class vn_b_uniform_seal_06_05_zombie_player : vn_b_uniform_seal_06_05 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_20_zombie_player";
-        };
-    };
-    class vn_b_uniform_seal_06_06 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_seal_06_06_zombie_walker : vn_b_uniform_seal_06_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_21_zombie_walker";
-        };
-    };
-    class vn_b_uniform_seal_06_06_zombie_slow : vn_b_uniform_seal_06_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_21_zombie_slow";
-        };
-    };
-    class vn_b_uniform_seal_06_06_zombie_slow2 : vn_b_uniform_seal_06_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_21_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_seal_06_06_zombie_medium : vn_b_uniform_seal_06_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_21_zombie_medium";
-        };
-    };
-    class vn_b_uniform_seal_06_06_zombie_fast : vn_b_uniform_seal_06_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_21_zombie_fast";
-        };
-    };
-    class vn_b_uniform_seal_06_06_zombie_crawler : vn_b_uniform_seal_06_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_21_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_seal_06_06_zombie_spider : vn_b_uniform_seal_06_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_21_zombie_spider";
-        };
-    };
-    class vn_b_uniform_seal_06_06_zombie_player : vn_b_uniform_seal_06_06 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_21_zombie_player";
-        };
-    };
-    class vn_b_uniform_seal_06_07 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_seal_06_07_zombie_walker : vn_b_uniform_seal_06_07 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_22_zombie_walker";
-        };
-    };
-    class vn_b_uniform_seal_06_07_zombie_slow : vn_b_uniform_seal_06_07 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_22_zombie_slow";
-        };
-    };
-    class vn_b_uniform_seal_06_07_zombie_slow2 : vn_b_uniform_seal_06_07 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_22_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_seal_06_07_zombie_medium : vn_b_uniform_seal_06_07 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_22_zombie_medium";
-        };
-    };
-    class vn_b_uniform_seal_06_07_zombie_fast : vn_b_uniform_seal_06_07 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_22_zombie_fast";
-        };
-    };
-    class vn_b_uniform_seal_06_07_zombie_crawler : vn_b_uniform_seal_06_07 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_22_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_seal_06_07_zombie_spider : vn_b_uniform_seal_06_07 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_22_zombie_spider";
-        };
-    };
-    class vn_b_uniform_seal_06_07_zombie_player : vn_b_uniform_seal_06_07 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_seal_22_zombie_player";
         };
     };
     class vn_b_uniform_seal_09_01 : vn_b_uniform_base {
@@ -5424,6 +4478,49 @@ class CfgWeapons {
             uniformClass = "vn_b_men_aircrew_36_zombie_player";
         };
     };
+    class vn_b_uniform_k2b_02_03 : vn_b_uniform_base {
+        class ItemInfo;
+    };
+    class vn_b_uniform_k2b_02_03_zombie_walker : vn_b_uniform_k2b_02_03 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_b_men_aircrew_37_zombie_walker";
+        };
+    };
+    class vn_b_uniform_k2b_02_03_zombie_slow : vn_b_uniform_k2b_02_03 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_b_men_aircrew_37_zombie_slow";
+        };
+    };
+    class vn_b_uniform_k2b_02_03_zombie_slow2 : vn_b_uniform_k2b_02_03 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_b_men_aircrew_37_zombie_slow2";
+        };
+    };
+    class vn_b_uniform_k2b_02_03_zombie_medium : vn_b_uniform_k2b_02_03 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_b_men_aircrew_37_zombie_medium";
+        };
+    };
+    class vn_b_uniform_k2b_02_03_zombie_fast : vn_b_uniform_k2b_02_03 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_b_men_aircrew_37_zombie_fast";
+        };
+    };
+    class vn_b_uniform_k2b_02_03_zombie_crawler : vn_b_uniform_k2b_02_03 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_b_men_aircrew_37_zombie_crawler";
+        };
+    };
+    class vn_b_uniform_k2b_02_03_zombie_spider : vn_b_uniform_k2b_02_03 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_b_men_aircrew_37_zombie_spider";
+        };
+    };
+    class vn_b_uniform_k2b_02_03_zombie_player : vn_b_uniform_k2b_02_03 {
+        class ItemInfo : ItemInfo {
+            uniformClass = "vn_b_men_aircrew_37_zombie_player";
+        };
+    };
     class vn_b_uniform_macv_01_16 : vn_b_uniform_base {
         class ItemInfo;
     };
@@ -5938,221 +5035,6 @@ class CfgWeapons {
     class vn_b_uniform_macv_06_18_zombie_player : vn_b_uniform_macv_06_18 {
         class ItemInfo : ItemInfo {
             uniformClass = "vn_b_men_rok_marine_68_06_zombie_player";
-        };
-    };
-    class vn_b_uniform_macv_01_22 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_macv_01_22_zombie_walker : vn_b_uniform_macv_01_22 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_01_zombie_walker";
-        };
-    };
-    class vn_b_uniform_macv_01_22_zombie_slow : vn_b_uniform_macv_01_22 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_01_zombie_slow";
-        };
-    };
-    class vn_b_uniform_macv_01_22_zombie_slow2 : vn_b_uniform_macv_01_22 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_01_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_macv_01_22_zombie_medium : vn_b_uniform_macv_01_22 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_01_zombie_medium";
-        };
-    };
-    class vn_b_uniform_macv_01_22_zombie_fast : vn_b_uniform_macv_01_22 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_01_zombie_fast";
-        };
-    };
-    class vn_b_uniform_macv_01_22_zombie_crawler : vn_b_uniform_macv_01_22 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_01_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_macv_01_22_zombie_spider : vn_b_uniform_macv_01_22 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_01_zombie_spider";
-        };
-    };
-    class vn_b_uniform_macv_01_22_zombie_player : vn_b_uniform_macv_01_22 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_01_zombie_player";
-        };
-    };
-    class vn_b_uniform_macv_01_23 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_macv_01_23_zombie_walker : vn_b_uniform_macv_01_23 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_02_zombie_walker";
-        };
-    };
-    class vn_b_uniform_macv_01_23_zombie_slow : vn_b_uniform_macv_01_23 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_02_zombie_slow";
-        };
-    };
-    class vn_b_uniform_macv_01_23_zombie_slow2 : vn_b_uniform_macv_01_23 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_02_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_macv_01_23_zombie_medium : vn_b_uniform_macv_01_23 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_02_zombie_medium";
-        };
-    };
-    class vn_b_uniform_macv_01_23_zombie_fast : vn_b_uniform_macv_01_23 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_02_zombie_fast";
-        };
-    };
-    class vn_b_uniform_macv_01_23_zombie_crawler : vn_b_uniform_macv_01_23 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_02_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_macv_01_23_zombie_spider : vn_b_uniform_macv_01_23 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_02_zombie_spider";
-        };
-    };
-    class vn_b_uniform_macv_01_23_zombie_player : vn_b_uniform_macv_01_23 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_02_zombie_player";
-        };
-    };
-    class vn_b_uniform_macv_01_24 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_macv_01_24_zombie_walker : vn_b_uniform_macv_01_24 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_03_zombie_walker";
-        };
-    };
-    class vn_b_uniform_macv_01_24_zombie_slow : vn_b_uniform_macv_01_24 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_03_zombie_slow";
-        };
-    };
-    class vn_b_uniform_macv_01_24_zombie_slow2 : vn_b_uniform_macv_01_24 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_03_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_macv_01_24_zombie_medium : vn_b_uniform_macv_01_24 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_03_zombie_medium";
-        };
-    };
-    class vn_b_uniform_macv_01_24_zombie_fast : vn_b_uniform_macv_01_24 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_03_zombie_fast";
-        };
-    };
-    class vn_b_uniform_macv_01_24_zombie_crawler : vn_b_uniform_macv_01_24 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_03_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_macv_01_24_zombie_spider : vn_b_uniform_macv_01_24 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_03_zombie_spider";
-        };
-    };
-    class vn_b_uniform_macv_01_24_zombie_player : vn_b_uniform_macv_01_24 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_03_zombie_player";
-        };
-    };
-    class vn_b_uniform_macv_01_25 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_macv_01_25_zombie_walker : vn_b_uniform_macv_01_25 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_04_zombie_walker";
-        };
-    };
-    class vn_b_uniform_macv_01_25_zombie_slow : vn_b_uniform_macv_01_25 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_04_zombie_slow";
-        };
-    };
-    class vn_b_uniform_macv_01_25_zombie_slow2 : vn_b_uniform_macv_01_25 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_04_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_macv_01_25_zombie_medium : vn_b_uniform_macv_01_25 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_04_zombie_medium";
-        };
-    };
-    class vn_b_uniform_macv_01_25_zombie_fast : vn_b_uniform_macv_01_25 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_04_zombie_fast";
-        };
-    };
-    class vn_b_uniform_macv_01_25_zombie_crawler : vn_b_uniform_macv_01_25 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_04_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_macv_01_25_zombie_spider : vn_b_uniform_macv_01_25 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_04_zombie_spider";
-        };
-    };
-    class vn_b_uniform_macv_01_25_zombie_player : vn_b_uniform_macv_01_25 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_04_zombie_player";
-        };
-    };
-    class vn_b_uniform_macv_01_26 : vn_b_uniform_base {
-        class ItemInfo;
-    };
-    class vn_b_uniform_macv_01_26_zombie_walker : vn_b_uniform_macv_01_26 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_05_zombie_walker";
-        };
-    };
-    class vn_b_uniform_macv_01_26_zombie_slow : vn_b_uniform_macv_01_26 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_05_zombie_slow";
-        };
-    };
-    class vn_b_uniform_macv_01_26_zombie_slow2 : vn_b_uniform_macv_01_26 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_05_zombie_slow2";
-        };
-    };
-    class vn_b_uniform_macv_01_26_zombie_medium : vn_b_uniform_macv_01_26 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_05_zombie_medium";
-        };
-    };
-    class vn_b_uniform_macv_01_26_zombie_fast : vn_b_uniform_macv_01_26 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_05_zombie_fast";
-        };
-    };
-    class vn_b_uniform_macv_01_26_zombie_crawler : vn_b_uniform_macv_01_26 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_05_zombie_crawler";
-        };
-    };
-    class vn_b_uniform_macv_01_26_zombie_spider : vn_b_uniform_macv_01_26 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_05_zombie_spider";
-        };
-    };
-    class vn_b_uniform_macv_01_26_zombie_player : vn_b_uniform_macv_01_26 {
-        class ItemInfo : ItemInfo {
-            uniformClass = "vn_b_men_medt_05_zombie_player";
         };
     };
     class vn_o_uniform_base : Uniform_Base {
