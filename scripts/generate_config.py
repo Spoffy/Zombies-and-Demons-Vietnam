@@ -189,6 +189,8 @@ def make_zombie_unit_class(type: ZombieClassTypes, originalClassName: str, paren
 		unitClass.add(arma_config.Raw("RYAN_ZOMBIE_BRAIN"))
 	if brain and isPlayer:
 		unitClass.add(arma_config.Raw("RYAN_ZOMBIE_PLAYER_INIT"))
+	if not brain:
+		unitClass.addProperty("scope", arma_config.Number(1))
 	return unitClass
 
 def get_zombie_class_name(type: ZombieClassTypes, original_name: str) -> str:
