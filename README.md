@@ -5,7 +5,10 @@
 
 Extends [Ryan's Zombies and Demons mod](https://steamcommunity.com/sharedfiles/filedetails/?id=501966277) for Arma 3 to support the S.O.G. Prairie Fire CDLC.
 
-This adds zombie variants (Walker, Slow, Medium, Fast, Spider, Crawler) for all S.O.G. Prairie Fire units.
+This adds zombie variants (Walker, Slow, Medium, Fast, Spider, Crawler, Player-controlled) for all S.O.G. Prairie Fire units.
+
+These zombies should behave identically to Ryan's zombies (except where "No brain" zombies are used, see below).
+
 
 **This mod is functional, but unfinished and still in development**
 
@@ -20,7 +23,7 @@ This adds zombie variants (Walker, Slow, Medium, Fast, Spider, Crawler) for all 
 
 ## How do I use this mod?
 
-This adds variants of every unit the S.O.G. Prairie Fire CDLC.
+This adds zombie variants of every unit in the S.O.G. Prairie Fire CDLC.
 
 The zombie variants for each unit are identical to their CDLC classnames, but with one of the following postfixes:
 
@@ -31,7 +34,8 @@ The zombie variants for each unit are identical to their CDLC classnames, but wi
 - `_zombie_fast`
 - `_zombie_spider`
 - `_zombie_crawler`
+- `_zombie_player` (Player-controllable)
 
-There are also "No brain" variants of the zombies that don't use Ryan's zombie brain, allowing for completely custom scripting. 
+There is also a "No brain" variant for every zombie type that doesn't run any scripts (either Ryan's zombie brain or player-zombie init script), allowing for completely custom scripting. 
 
-These have a `_nobrain` postfix. For example: `vn_b_men_seal_48_zombie_walker_nobrain`
+These have a `_nobrain` postfix. For example: `vn_b_men_seal_48_zombie_walker_nobrain`,  `vn_b_men_seal_48_zombie_player_nobrain`.

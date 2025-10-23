@@ -34,6 +34,11 @@ class CfgFactionClasses {
         displayName = "MACV (Zombies - Spider)";
         icon = "\Ryanzombies\icons\zombie2.paa";
     };
+    class B_MACV;
+    class B_MACV_zombie_player : B_MACV {
+        displayName = "MACV (Zombies - Player)";
+        icon = "\Ryanzombies\icons\zombie2.paa";
+    };
     class I_ARVN;
     class I_ARVN_zombie_walker : I_ARVN {
         displayName = "ARVN (Zombies - Walker)";
@@ -67,6 +72,11 @@ class CfgFactionClasses {
     class I_ARVN;
     class I_ARVN_zombie_spider : I_ARVN {
         displayName = "ARVN (Zombies - Spider)";
+        icon = "\Ryanzombies\icons\zombie2.paa";
+    };
+    class I_ARVN;
+    class I_ARVN_zombie_player : I_ARVN {
+        displayName = "ARVN (Zombies - Player)";
         icon = "\Ryanzombies\icons\zombie2.paa";
     };
     class O_PAVN;
@@ -104,6 +114,11 @@ class CfgFactionClasses {
         displayName = "PAVN (Zombies - Spider)";
         icon = "\Ryanzombies\icons\zombie2.paa";
     };
+    class O_PAVN;
+    class O_PAVN_zombie_player : O_PAVN {
+        displayName = "PAVN (Zombies - Player)";
+        icon = "\Ryanzombies\icons\zombie2.paa";
+    };
     class O_VC;
     class O_VC_zombie_walker : O_VC {
         displayName = "Viet Cong (Zombies - Walker)";
@@ -137,6 +152,11 @@ class CfgFactionClasses {
     class O_VC;
     class O_VC_zombie_spider : O_VC {
         displayName = "Viet Cong (Zombies - Spider)";
+        icon = "\Ryanzombies\icons\zombie2.paa";
+    };
+    class O_VC;
+    class O_VC_zombie_player : O_VC {
+        displayName = "Viet Cong (Zombies - Player)";
         icon = "\Ryanzombies\icons\zombie2.paa";
     };
     class C_VIET;
@@ -174,6 +194,11 @@ class CfgFactionClasses {
         displayName = "Vietnamese (Zombies - Spider)";
         icon = "\Ryanzombies\icons\zombie2.paa";
     };
+    class C_VIET;
+    class C_VIET_zombie_player : C_VIET {
+        displayName = "Vietnamese (Zombies - Player)";
+        icon = "\Ryanzombies\icons\zombie2.paa";
+    };
     class B_AUS;
     class B_AUS_zombie_walker : B_AUS {
         displayName = "Australia (Zombies - Walker)";
@@ -207,6 +232,11 @@ class CfgFactionClasses {
     class B_AUS;
     class B_AUS_zombie_spider : B_AUS {
         displayName = "Australia (Zombies - Spider)";
+        icon = "\Ryanzombies\icons\zombie2.paa";
+    };
+    class B_AUS;
+    class B_AUS_zombie_player : B_AUS {
+        displayName = "Australia (Zombies - Player)";
         icon = "\Ryanzombies\icons\zombie2.paa";
     };
     class B_NZ;
@@ -244,6 +274,11 @@ class CfgFactionClasses {
         displayName = "New Zealand (Zombies - Spider)";
         icon = "\Ryanzombies\icons\zombie2.paa";
     };
+    class B_NZ;
+    class B_NZ_zombie_player : B_NZ {
+        displayName = "New Zealand (Zombies - Player)";
+        icon = "\Ryanzombies\icons\zombie2.paa";
+    };
     class B_CIA;
     class B_CIA_zombie_walker : B_CIA {
         displayName = "US CIA (Zombies - Walker)";
@@ -277,6 +312,11 @@ class CfgFactionClasses {
     class B_CIA;
     class B_CIA_zombie_spider : B_CIA {
         displayName = "US CIA (Zombies - Spider)";
+        icon = "\Ryanzombies\icons\zombie2.paa";
+    };
+    class B_CIA;
+    class B_CIA_zombie_player : B_CIA {
+        displayName = "US CIA (Zombies - Player)";
         icon = "\Ryanzombies\icons\zombie2.paa";
     };
     class O_PL;
@@ -314,6 +354,11 @@ class CfgFactionClasses {
         displayName = "Pathet Lao (Zombies - Spider)";
         icon = "\Ryanzombies\icons\zombie2.paa";
     };
+    class O_PL;
+    class O_PL_zombie_player : O_PL {
+        displayName = "Pathet Lao (Zombies - Player)";
+        icon = "\Ryanzombies\icons\zombie2.paa";
+    };
     class I_LAO;
     class I_LAO_zombie_walker : I_LAO {
         displayName = "Royal Lao Army (Zombies - Walker)";
@@ -347,6 +392,11 @@ class CfgFactionClasses {
     class I_LAO;
     class I_LAO_zombie_spider : I_LAO {
         displayName = "Royal Lao Army (Zombies - Spider)";
+        icon = "\Ryanzombies\icons\zombie2.paa";
+    };
+    class I_LAO;
+    class I_LAO_zombie_player : I_LAO {
+        displayName = "Royal Lao Army (Zombies - Player)";
         icon = "\Ryanzombies\icons\zombie2.paa";
     };
     class B_ROK;
@@ -384,6 +434,11 @@ class CfgFactionClasses {
         displayName = "Republic Of Korea (Zombies - Spider)";
         icon = "\Ryanzombies\icons\zombie2.paa";
     };
+    class B_ROK;
+    class B_ROK_zombie_player : B_ROK {
+        displayName = "Republic Of Korea (Zombies - Player)";
+        icon = "\Ryanzombies\icons\zombie2.paa";
+    };
     class B_MEDT;
     class B_MEDT_zombie_walker : B_MEDT {
         displayName = "US MEDT (Zombies - Walker)";
@@ -417,6 +472,11 @@ class CfgFactionClasses {
     class B_MEDT;
     class B_MEDT_zombie_spider : B_MEDT {
         displayName = "US MEDT (Zombies - Spider)";
+        icon = "\Ryanzombies\icons\zombie2.paa";
+    };
+    class B_MEDT;
+    class B_MEDT_zombie_player : B_MEDT {
+        displayName = "US MEDT (Zombies - Player)";
         icon = "\Ryanzombies\icons\zombie2.paa";
     };
     class I_CAM;
@@ -454,6 +514,11 @@ class CfgFactionClasses {
         displayName = "FANK (Zombies - Spider)";
         icon = "\Ryanzombies\icons\zombie2.paa";
     };
+    class I_CAM;
+    class I_CAM_zombie_player : I_CAM {
+        displayName = "FANK (Zombies - Player)";
+        icon = "\Ryanzombies\icons\zombie2.paa";
+    };
     class O_CAM;
     class O_CAM_zombie_walker : O_CAM {
         displayName = "Khmer Rouge (Zombies - Walker)";
@@ -487,6 +552,11 @@ class CfgFactionClasses {
     class O_CAM;
     class O_CAM_zombie_spider : O_CAM {
         displayName = "Khmer Rouge (Zombies - Spider)";
+        icon = "\Ryanzombies\icons\zombie2.paa";
+    };
+    class O_CAM;
+    class O_CAM_zombie_player : O_CAM {
+        displayName = "Khmer Rouge (Zombies - Player)";
         icon = "\Ryanzombies\icons\zombie2.paa";
     };
 };

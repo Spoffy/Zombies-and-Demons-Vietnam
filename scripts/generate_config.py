@@ -112,6 +112,7 @@ class ZombieClassTypes(Enum):
 	FAST = "FAST"
 	CRAWLER = "CRAWLER"
 	SPIDER = "SPIDER"
+	PLAYER = "PLAYER"
 
 zombie_macros = {
 	ZombieClassTypes.PARENT_GEN_2: "DECLARE_ZOMBIE_PARENT_PARENT",
@@ -122,7 +123,8 @@ zombie_macros = {
 	ZombieClassTypes.MEDIUM: "ZOMBIFY_MEDIUM",
 	ZombieClassTypes.FAST: "ZOMBIFY_FAST",
 	ZombieClassTypes.SPIDER: "ZOMBIFY_SPIDER",
-	ZombieClassTypes.CRAWLER: "ZOMBIFY_CRAWLER"
+	ZombieClassTypes.CRAWLER: "ZOMBIFY_CRAWLER",
+	ZombieClassTypes.PLAYER: "ZOMBIFY_PLAYER"
 }
 
 zombie_factionNames = {
@@ -132,7 +134,8 @@ zombie_factionNames = {
 	ZombieClassTypes.MEDIUM: "Zombies - Medium",
 	ZombieClassTypes.FAST: "Zombies - Fast",
 	ZombieClassTypes.SPIDER: "Zombies - Spider",
-	ZombieClassTypes.CRAWLER: "Zombies - Crawler"
+	ZombieClassTypes.CRAWLER: "Zombies - Crawler",
+	ZombieClassTypes.PLAYER: "Zombies - Player"
 }
 
 zombie_postfixes = {
@@ -142,10 +145,12 @@ zombie_postfixes = {
 	ZombieClassTypes.MEDIUM: "_zombie_medium",
 	ZombieClassTypes.FAST: "_zombie_fast",
 	ZombieClassTypes.SPIDER: "_zombie_spider",
-	ZombieClassTypes.CRAWLER: "_zombie_crawler"
+	ZombieClassTypes.CRAWLER: "_zombie_crawler",
+	ZombieClassTypes.PLAYER: "_zombie_player"
 }
 
-zombie_types = [ZombieClassTypes.WALKER, ZombieClassTypes.SLOW, ZombieClassTypes.SLOW2, ZombieClassTypes.MEDIUM, ZombieClassTypes.FAST, ZombieClassTypes.CRAWLER, ZombieClassTypes.SPIDER]
+npc_zombie_types = [ZombieClassTypes.WALKER, ZombieClassTypes.SLOW, ZombieClassTypes.SLOW2, ZombieClassTypes.MEDIUM, ZombieClassTypes.FAST, ZombieClassTypes.CRAWLER, ZombieClassTypes.SPIDER]
+zombie_types = npc_zombie_types + [ZombieClassTypes.PLAYER]
 
 
 def make_zombie_parent_gen_3_class(name: str, parent: str):
@@ -163,6 +168,7 @@ def make_zombie_parent_class(name: str, parent: str):
 	return unitClass
 
 def make_zombie_unit_class(type: ZombieClassTypes, originalClassName: str, parent: str = None, originalUniformName: str = None, originalFaction = None, brain = True):
+	isPlayer = type == ZombieClassTypes.PLAYER
 	className = get_zombie_class_name(type, originalClassName) + ("" if brain else "_nobrain")
 	unitClass = arma_config.Class(className, parent=parent)
 	macro = zombie_macros.get(type, None)
@@ -170,10 +176,13 @@ def make_zombie_unit_class(type: ZombieClassTypes, originalClassName: str, paren
 		unitClass.add(arma_config.Raw(macro))
 	if originalUniformName:
 		unitClass.addProperty("uniformClass", arma_config.String(get_zombie_class_name(type, originalUniformName)))
+		unitClass.addProperty("uniformClassHuman", arma_config.String(originalUniformName))
 	if originalFaction:
 		unitClass.addProperty("faction", arma_config.String(get_zombie_class_name(type, originalFaction)))
-	if brain:
+	if brain and not isPlayer:
 		unitClass.add(arma_config.Raw("RYAN_ZOMBIE_BRAIN"))
+	if brain and isPlayer:
+		unitClass.add(arma_config.Raw("RYAN_ZOMBIE_PLAYER_INIT"))
 	return unitClass
 
 def get_zombie_class_name(type: ZombieClassTypes, original_name: str) -> str:
@@ -191,9 +200,12 @@ for root in unit_trees_builder.roots():
 		elif unit_node.distance == 0:
 			CfgVehicles.add(make_zombie_parent_class(unit_node.name, unit_node.parent))
 
-			for zombie_type in zombie_types:
+			for zombie_type in npc_zombie_types:
 				CfgVehicles.add(make_zombie_unit_class(zombie_type, unit_node.name, unit_node.name, unit_node.data.uniform_class, unit_node.data.faction, brain=True))
 				CfgVehicles.add(make_zombie_unit_class(zombie_type, unit_node.name, unit_node.name, unit_node.data.uniform_class, unit_node.data.faction, brain=False))
+
+			CfgVehicles.add(make_zombie_unit_class(ZombieClassTypes.PLAYER, unit_node.name, unit_node.name, unit_node.data.uniform_class, unit_node.data.faction, brain=True))
+			CfgVehicles.add(make_zombie_unit_class(ZombieClassTypes.PLAYER, unit_node.name, unit_node.name, unit_node.data.uniform_class, unit_node.data.faction, brain=False))
 
 CfgWeapons = arma_config.Class("CfgWeapons")
 

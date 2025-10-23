@@ -104,6 +104,7 @@
 #define MOVES_FAST moves="CfgRyanZombiesMovesMaleSdr";
 #define MOVES_CRAWLER moves="CfgRyanZombiesMovesMaleSdrCrawler";
 #define MOVES_SPIDER moves="CfgRyanZombiesMovesMaleSdrSpider";
+#define MOVES_PLAYER moves="CfgRyanZombiesMovesMaleSdrPlayer";
 
 #define ZOMBIFY_WALKER ZOMBIE_BASE\
 	MOVES_WALKER
@@ -126,6 +127,10 @@
 #define ZOMBIFY_SPIDER ZOMBIE_BASE\
 	MOVES_SPIDER
 
+#define ZOMBIFY_PLAYER ZOMBIE_BASE\
+	MOVES_PLAYER\
+	scopeCurator=0;
+
 #define RYAN_ZOMBIE_BRAIN 		class EventHandlers\
 		{\
 			class CBA_Extended_EventHandlers\
@@ -135,5 +140,17 @@
 			class Ryanzombies\
 			{\
 				init = "(_this select 0) setVariable ['cba_xeh_isprocessed', true]; if !(isnil 'ryanzombiesstartinganim') then {(_this select 0) switchmove 'AmovPercMstpSnonWnonDnon_SaluteOut';}; _this execVM '\ryanzombies\zombie.sqf'";\
+			};\
+		};
+
+#define RYAN_ZOMBIE_PLAYER_INIT		class EventHandlers\
+		{\
+			class CBA_Extended_EventHandlers\
+			{\
+				dummy = 1;\
+			};\
+			class Ryanzombies\
+			{\
+				init = "(_this select 0) setVariable ['cba_xeh_isprocessed', true]; _this execVM '\ryanzombies\playercontrolled\zombie_player_init.sqf'";\
 			};\
 		};
