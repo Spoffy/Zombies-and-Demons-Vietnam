@@ -1,4 +1,4 @@
-"faction,faction_displayName,editor_subcategory,editor_subcategory_displayName,unit_displayName,unit_class,parent_class,parent_parent_class,uniform_class,uniform_parent_class,uniform_parent_parent_class
+faction,faction_displayName,editor_subcategory,editor_subcategory_displayName,unit_displayName,unit_class,parent_class,parent_parent_class,uniform_class,uniform_parent_class,uniform_parent_parent_class
 B_MACV,MACV,vn_b_men_sog,Men (MACV-SOG),One-Zero (TL),vn_b_men_sog_01,vn_b_men_sog_base,B_Soldier_base_F,vn_b_uniform_sog_01_04,vn_b_uniform_base,Uniform_Base
 B_MACV,MACV,vn_b_men_sog,Men (MACV-SOG),One-One (RTO),vn_b_men_sog_02,vn_b_men_sog_base,B_Soldier_base_F,vn_b_uniform_sog_02_05,vn_b_uniform_base,Uniform_Base
 B_MACV,MACV,vn_b_men_sog,Men (MACV-SOG),One-Two (Medic),vn_b_men_sog_03,vn_b_men_sog_base,B_Soldier_base_F,vn_b_uniform_sog_01_06,vn_b_uniform_base,Uniform_Base
@@ -1147,4 +1147,4 @@ O_CAM,Khmer Rouge,vn_o_men_kr_75,Men (Army 75),Crewman (Driver),vn_o_men_kr_75_1
 O_CAM,Khmer Rouge,vn_o_men_kr_75,Men (Army 75),Crewman (Gunner),vn_o_men_kr_75_20,vn_o_men_kr_75_base,vn_o_men_kr_70_base,vn_o_uniform_vc_01_01,vn_o_uniform_base,Uniform_Base
 O_CAM,Khmer Rouge,vn_o_men_kr_75,Men (Army 75),Squad Leader (SKS Bayo),vn_o_men_kr_75_21,vn_o_men_kr_75_base,vn_o_men_kr_70_base,vn_o_uniform_vc_mf_12_07,vn_o_uniform_base,Uniform_Base
 O_CAM,Khmer Rouge,vn_o_men_kr_75,Men (Army 75),Squad Leader (AK),vn_o_men_kr_75_22,vn_o_men_kr_75_base,vn_o_men_kr_70_base,vn_o_uniform_vc_mf_12_07,vn_o_uniform_base,Uniform_Base
-O_CAM,Khmer Rouge,vn_o_men_kr_75,Men (Army 75),Scout (AK),vn_o_men_kr_75_23,vn_o_men_kr_75_base,vn_o_men_kr_70_base,vn_o_uniform_vc_02_01,vn_o_uniform_base,Uniform_Base"
+O_CAM,Khmer Rouge,vn_o_men_kr_75,Men (Army 75),Scout (AK),vn_o_men_kr_75_23,vn_o_men_kr_75_base,vn_o_men_kr_70_base,vn_o_uniform_vc_02_01,vn_o_uniform_base,Uniform_Base

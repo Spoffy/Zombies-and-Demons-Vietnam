@@ -20,7 +20,7 @@ class CfgPatches
 
 #include "common_includes.inc"
 
-#include "editor_subcategories.hpp"
+#include "factions.hpp"
 
 #include "uniforms.hpp"
 
