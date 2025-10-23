@@ -7,9 +7,9 @@ author = "Spoffy"
 url = "https://www.sogpf.com"
 
 [version]
-major = 0
+major = 1
 minor = 0
-patch = 1
+patch = 0
 
 [release]
 sign = true
