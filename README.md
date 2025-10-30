@@ -11,11 +11,11 @@ These zombies should behave identically to Ryan's zombies (except where "No brai
 
 > **Important note**: A small number of units are intentionally omitted out of respect for the real-life veterans involved in with S.O.G. Prairie Fire. Please do not re-add them.
 
-**This mod is functional, but unfinished and still in development**
-
 ## Installation
 
-**Steam workshop will be added when the mod is completed**
+Download the mod directly from the Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3592239718
+
+### Building the mod locally
 
 1. Install the [Hemtt](https://github.com/BrettMayson/HEMTT) build tool for Arma 3.
 2. Download this Git Repository
